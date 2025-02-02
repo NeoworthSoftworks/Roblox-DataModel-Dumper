@@ -1,0 +1,18 @@
+[package]
+name = "sh3df"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winapi = { version = "0.3", features = [
+    "winuser",
+    "wincon",
+    "processthreadsapi",
+    "processenv",
+    "tlhelp32",
+    "handleapi",
+    "memoryapi",
+    "consoleapi",
+    "winbase"
+] }
+termcolor = "1.4.0"
