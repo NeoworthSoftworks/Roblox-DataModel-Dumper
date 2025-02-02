@@ -47,9 +47,9 @@ pub fn show_credits(stream: &mut StandardStream) -> Result<(), std::io::Error> {
             .set_bold(true)
             .set_intense(true)
     )?;
-    writeln!(stream, "\n╔════════════════════════════════════════╗")?;
+    writeln!(stream, "\n╔═════════════════════════════════════════╗")?;
     writeln!(stream, "║    Bufferization | Neoworth Development   ║")?;
-    writeln!(stream, "╚════════════════════════════════════════╝")?;
+    writeln!(stream, "╚═══════════════════════════════════════════╝")?;
     stream.reset()?;
     Ok(())
 }
